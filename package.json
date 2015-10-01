@@ -3,8 +3,10 @@
   "description": "CLI to generate Subresource Integrity hashes for your assets.",
   "author": "John Otander",
   "version": "0.0.1",
-  "main": "index.js",
-  "bin": "cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "sri": "cli.js"
+  },
   "directories": {
     "test": "test"
   },
