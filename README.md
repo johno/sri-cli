@@ -18,6 +18,10 @@ sri --help
 
 MIT
 
+## Acknowledgements
+
+Heavily relies on [node-sri](https://github.com/odino/node-sri).
+
 ## Contributing
 
 1. Fork it
