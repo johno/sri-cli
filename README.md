@@ -5,15 +5,13 @@ CLI to generate Subresource Integrity hashes for your assets.
 ## Installation
 
 ```bash
-npm install --save sri-cli
+npm i -g sri-cli
 ```
 
 ## Usage
 
-```javascript
-var sriCli = require('sri-cli')
-
-sriCli()  // => true
+```sh
+sri --help
 ```
 
 ## License
