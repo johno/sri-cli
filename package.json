@@ -1,0 +1,36 @@
+{
+  "name": "sri-cli",
+  "description": "CLI to generate Subresource Integrity hashes for your assets.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": "cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/test.js | tap-dot",
+    "jshint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/sri-cli.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/sri-cli/issues"
+  },
+  "homepage": "https://github.com/johnotander/sri-cli",
+  "dependencies": {
+    "glob": "^5.0.15",
+    "is-present": "^1.0.0",
+    "meow": "^3.3.0",
+    "node-sri": "^1.1.1"
+  },
+  "devDependencies": {
+    "tape": "*",
+    "tap-dot": "*",
+    "standard": "*"
+  }
+}
