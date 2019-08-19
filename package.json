@@ -14,18 +14,14 @@
     "test": "tape test/test.js | tap-dot",
     "jshint": "standard"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnotander/sri-cli.git"
-  },
-  "keywords": [],
+  "repository": "johno/sr-cli",
+  "keywords": [
+    "sri",
+    "cli"
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johnotander/sri-cli/issues"
-  },
-  "homepage": "https://github.com/johnotander/sri-cli",
   "dependencies": {
-    "glob": "^5.0.15",
+    "glob": "^7.1.4",
     "is-present": "^1.0.0",
     "meow": "^3.3.0",
     "node-sri": "^1.1.1"
