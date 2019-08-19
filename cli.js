@@ -23,6 +23,7 @@ var cli = meow({
 
 var assetCache = {}
 var assetGlob = cli.input[0]
+var algorithm = cli.flags.algorithm || 'sha256'
 
 if (isPresent(assetGlob)) {
   glob(assetGlob, function (err, files) {
@@ -41,7 +42,7 @@ if (isPresent(assetGlob)) {
     files.forEach(function (file) {
       currFile += 1
 
-      sri.hash(file, function (err, hash) {
+      sri.hash({ file: file, algo: algorithm }, function (err, hash) {
         if (isPresent(err)) {
           console.log(err)
           process.exit(1)
