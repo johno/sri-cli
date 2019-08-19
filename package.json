@@ -31,7 +31,6 @@
     "node-sri": "^1.1.1"
   },
   "devDependencies": {
-    "path-exists": "^2.0.0",
     "standard": "*",
     "tap-dot": "*",
     "tape": "*"
