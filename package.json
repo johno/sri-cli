@@ -2,7 +2,7 @@
   "name": "sri-cli",
   "description": "CLI to generate Subresource Integrity hashes for your assets.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "preferGlobal": true,
   "bin": {
     "sri": "cli.js"
